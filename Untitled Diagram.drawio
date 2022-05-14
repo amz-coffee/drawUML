@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T11:39:38.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="3mrBD507tzW5yghECe7I" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-14T11:45:26.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="MKaABlnDADv4dXij13-6" version="18.0.3" type="github">
   <diagram id="63sCtR6M3I_Q51fcC-L-" name="Page-1">
     <mxGraphModel dx="946" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
             <mxPoint x="440" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wdU83Ep_jWFngRl3Fw41-5" value="メッセージ送信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wdU83Ep_jWFngRl3Fw41-5" value="メッセージ送信画面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wdU83Ep_jWFngRl3Fw41-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdU83Ep_jWFngRl3Fw41-1" target="wdU83Ep_jWFngRl3Fw41-5">
@@ -40,6 +40,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wdU83Ep_jWFngRl3Fw41-10" value="宛先にメッセージ送信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="350" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wdU83Ep_jWFngRl3Fw41-11" value="現在日時にプラス10分した時間を基準に&lt;br&gt;着信日時が含まれているレコードを取得" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wdU83Ep_jWFngRl3Fw41-8" target="wdU83Ep_jWFngRl3Fw41-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
